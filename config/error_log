@@ -1,0 +1,84 @@
+[17-Feb-2025 21:45:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[16-Jun-2025 01:41:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
+[16-Jun-2025 01:42:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[18-Jun-2025 04:06:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[18-Jun-2025 04:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/broadcasting.php on line 18
+[18-Jun-2025 04:06:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/cache.php on line 18
+[18-Jun-2025 04:06:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
+[18-Jun-2025 04:06:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/filesystems.php on line 16
+[18-Jun-2025 04:07:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/queue.php on line 16
+[18-Jun-2025 04:07:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/services.php on line 18
+[18-Jun-2025 04:07:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/session.php on line 21
+[18-Jun-2025 04:07:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home3/keninfot/restaurant.keninfotec.com/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/view.php on line 17
+[20-Jun-2025 03:13:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
+[20-Jun-2025 03:14:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[22-Jun-2025 03:03:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
+[22-Jun-2025 03:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[30-Jun-2025 13:04:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
+[30-Jun-2025 13:05:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[03-Jul-2025 06:11:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
+[03-Jul-2025 06:12:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/app.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/app.php on line 18
+[21-Aug-2025 12:09:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home3/keninfot/restaurant.keninfotec.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home3/keninfot/restaurant.keninfotec.com/config/database.php on line 18
