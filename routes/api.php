@@ -28,6 +28,7 @@ use App\Http\Controllers\API\YardSourcesController;
 use App\Http\Controllers\API\YardLocationsNameController;
 use App\Http\Controllers\API\YardOutwardController;
 use App\Http\Controllers\API\SummaryReportController;
+use App\Http\Controllers\API\TruckFuelLogsController;
 
 
 use Illuminate\Support\Facades\Artisan;
@@ -215,6 +216,16 @@ Route::middleware(['api.auth', 'auth:api'])->prefix('trucks')->group(function ()
     Route::get('/trucksList', [TrucksController::class, 'index']);
     Route::post('/getTruckDetailsByModel', [TrucksController::class, 'getTruckDetailsByModel']);
     Route::post('/getGateDetailsByVehicleNo', [TrucksController::class, 'getGateDetailsByVehicleNo']);
+    Route::get('/truckList', [TrucksController::class, 'getTruckList']);
+});
+
+Route::middleware(['api.auth', 'auth:api'])->prefix('truck_fuel_logs')->group(function () {
+    Route::post('/getList', [TruckFuelLogsController::class, 'index']);
+    Route::post('/create', [TruckFuelLogsController::class, 'store']);
+    Route::get('/view/{id}', [TruckFuelLogsController::class, 'show']);
+    Route::post('/update', [TruckFuelLogsController::class, 'update']);
+    Route::get('/delete/{id}', [TruckFuelLogsController::class, 'destroy']);
+    Route::post('/getFuelLogsByTruck', [TruckFuelLogsController::class, 'getFuelLogsByTruck']);
 });
 
 Route::middleware(['api.auth', 'auth:api'])->prefix('sizes')->group(function () {

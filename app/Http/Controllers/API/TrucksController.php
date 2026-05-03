@@ -170,6 +170,24 @@ class TrucksController extends Controller
     }
 
     /**
+     * Get truck list for dropdown (ID and name only).
+     */
+    public function getTruckList(): JsonResponse
+    {
+        $trucks = Truck::select('id', 'truck_number as name')
+            //->whereNotNull('truck_name')
+            //->where('truck_name', '!=', '')
+            ->orderBy('truck_name', 'asc')
+            ->get();
+
+        return response()->json([
+            'success' => true,
+            'data' => $trucks,
+            'message' => 'Truck list retrieved successfully'
+        ]);
+    }
+
+    /**
      * Remove the specified resource from storage.
      */
     public function destroy(string $id): JsonResponse
